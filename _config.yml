@@ -47,3 +47,6 @@ social:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
+exclude: [vendor]
