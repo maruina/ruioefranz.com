@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: ruio e franz
 description: Villa Frassanelle, 8 Settembre 2019
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ruioefranz.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # on landing page
