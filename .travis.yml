@@ -20,19 +20,20 @@ jobs:
     - npm install -g sass-lint htmllint-cli markdownlint-cli
     script:
     - JEKYLL_ENV=production bundle exec jekyll build
-    - markdownlint _posts _drafts _pages README.md
+    - markdownlint _posts _drafts _pages README.md index.md
+    - sass-lint --verbose --no-exit
     - bundle exec htmlproofer _site --allow-hash-href --assume-extension --url-ignore
       "/localhost/" --http-status-ignore "999" --http-status-ignore "302"
-  # - stage: Github Release
-  #   script:
-  #   - JEKYLL_ENV=production bundle exec jekyll build
-  #   deploy:
-  #     provider: pages
-  #     local-dir: "./_site"
-  #     target-branch: master
-  #     name: Travis Deployment Bot
-  #     skip-cleanup: true
-  #     github-token: "$GITHUB_TOKEN"
-  #     keep-history: true
-  #     on:
-  #       branch: master
+  - stage: Github Release
+    script:
+    - JEKYLL_ENV=production bundle exec jekyll build
+    deploy:
+      provider: pages
+      local-dir: ./_site
+      target-branch: master
+      name: Travis Deployment Bot
+      skip-cleanup: true
+      github-token: $GITHUB_TOKEN
+      keep-history: true
+      on:
+        branch: release
