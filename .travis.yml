@@ -29,10 +29,10 @@ jobs:
     deploy:
       provider: pages
       local-dir: ./_site
-      target-branch: master
+      target-branch: release
       name: Travis Deployment Bot
       skip-cleanup: true
       github-token: $GITHUB_TOKEN
       keep-history: true
       on:
-        branch: release
+        branch: master
