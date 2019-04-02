@@ -21,7 +21,6 @@ jobs:
     script:
     - JEKYLL_ENV=production bundle exec jekyll build
     - markdownlint _posts _drafts _pages README.md index.md
-    - sass-lint --verbose --no-exit
     - bundle exec htmlproofer _site --allow-hash-href --assume-extension --url-ignore
       "/localhost/" --http-status-ignore "999" --http-status-ignore "302"
   - stage: Github Release
