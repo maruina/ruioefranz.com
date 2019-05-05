@@ -20,8 +20,9 @@ url: "http://ruioefranz.com" # the base hostname & protocol for your site, e.g. 
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: _Your greeting_  
-  text: _Your detailed greeting text_
+  title: Benvenuti!
+  text: |
+    Grazie per essere arrivati sul sito web del matrimonio
 # - displayed at the bottom
 closing-head: _Your closing_
 closing-para: _Your detailed closing_
