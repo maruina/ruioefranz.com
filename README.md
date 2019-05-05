@@ -24,7 +24,8 @@
     ruby -v
     # ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-darwin18]
 
-    # Append your path file with the following, replacing the X.X with the first two digits of your Ruby version.
+    # Append your path file with the following,
+    # replacing the X.X with the first two digits of your Ruby version.
     export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH
     ```
 
@@ -52,7 +53,9 @@ bundle exec jekyll serve --future --drafts -l
 
 - To change the background image, replace `images/banner.jpg`
 - The index page is based on the `_layouts/landing.html`
-- To change the text in the greeting section, edit `greeting.title` and `greeting.text` in `_config.yml` **or** edit the `<section id="greeting"` in `_layouts/landing.html`
+- To change the text in the greeting section,
+edit `greeting.title` and `greeting.text` in `_config.yml`
+**or** edit the `<section id="greeting"` in `_layouts/landing.html`
 
 ## Contributing
 
