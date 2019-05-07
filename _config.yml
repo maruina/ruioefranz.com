@@ -22,7 +22,7 @@ url: "http://ruioefranz.com" # the base hostname & protocol for your site, e.g. 
 greeting:
   title: Benvenuti!
   text: |
-    Grazie per aver visitato il nostro sito. Abbiamo incluso alcune informazioni sul nostro matrimonio; per favore ricordati di compilare l'RSVP e contattaci se avete bisogno di maggiori informazioni.
+    Grazie per aver visitato il nostro sito. Abbiamo incluso alcune informazioni sul nostro matrimonio; per favore ricordatevi di compilare l'RSVP e contattateci se avete bisogno di maggiori informazioni.
 # - displayed at the bottom
 closing-head: _Your closing_
 closing-para: _Your detailed closing_
