@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: ruio e franz
-description: Villa Frassanelle, 8 Settembre 2019
+description: 8 settembre 2019
 url: "http://ruioefranz.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # on landing page
@@ -22,7 +22,7 @@ url: "http://ruioefranz.com" # the base hostname & protocol for your site, e.g. 
 greeting:
   title: Benvenuti!
   text: |
-    Grazie per essere arrivati sul sito web del matrimonio
+    Grazie per aver visitato il nostro sito. Abbiamo incluso alcune informazioni sul nostro matrimonio; per favore ricordati di compilare l'RSVP e contattaci se avete bisogno di maggiori informazioni.
 # - displayed at the bottom
 closing-head: _Your closing_
 closing-para: _Your detailed closing_
@@ -33,7 +33,7 @@ plugins:
   - jekyll-feed
 
 social:
-  github: https://github.com/maruina/ruioefranz.com
+  github: https://github.com/maruina/maruina.github.io
   email: matteo.ruina@gmail.com
 
 # Exclude from processing.

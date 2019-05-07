@@ -1,5 +1,7 @@
 # Wedding Website
 
+[![Build Status](https://travis-ci.org/maruina/maruina.github.io.svg?branch=release)](https://travis-ci.org/maruina/maruina.github.io)
+
 ## Installation
 
 1. Install ruby
